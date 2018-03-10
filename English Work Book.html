@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+English Work Book
+</title>
+<style>
+body{margin:auto;width:auto;height:auto;box-shadow:2px 1px 2px #445;text-shadow:2px 1px 2px silver;}
+#m{box-shadow:2px 1px 2px #990;}
+input[type="Button"],input,a{padding:10px;cursor:pointer;margin-left:20px;font-weight:bold;width:160px;
+box-shadow:2px 1px 2px #990;text-shadow:2px 1px 2px silver;margin:2px;border-radius:6px;}
+
+#link{border-width:10px 10px 10px 10px black;background-color:skyblue;width:520px;}
+input:hover{opacity:.5;}
+</style>
+<script>
+function time(){
+var a=new Date();
+document.getElementById('time').innerHTML='<b>Current Time is:'+a.toLocaleTimeString();
+setTimeout(time,1000);
+}
+window.onload=time;
+</script>
+</head>
+<body>
+
+<div id="time">
+</div>
+<div id="close">
+<input type="button" value="Close" onclick="window.close();" title="Exit">
+</div>
+<div id="link">
+<b>
+<table border="4">
+<tr><th>
+<input type="button" value="Counting" onclick="l1()" title="For Counting Click Me">
+</th><th>
+<input type="button" value="Days OF Week" onclick="l2()" title="For Days OF Week Click Me">
+</th><th>
+<input type="button" value="Months OF Year" onclick="l3()" title="For Month's OF Year ClickMe">
+</th><tr></tr><th>
+<input type="button" value="Colour Name" onclick="l4()" title="For Colour Click Me">
+</th><th>
+<input type="button" value="Timings" onclick="l5()" title="For Tmings Click Me">
+</th><th>
+<input type="button" value="Directions" onclick="l6()" title="For Direction Click Me">
+</th></tr><tr><th>
+<input type="button" value="Natural Objects" onclick="l7()" title="For Natural Objects Click Me">
+</th><th>
+<input type="button" value="Places" onclick="l8()" title="For Places Click Me">
+</th><th>
+<input type="button" value="Class Room Objects" onclick="l9()" title="Click Me">
+</th></tr><tr><th>
+<input type="button" value="Use of is, Am, Are" onclick="l10()" title=" Click Me"></th><th>
+<input type="button" value="Use of Was,Were" onclick="l11()" title=" Click Me">
+</th><th>
+<input type="button" value="Relation's" onclick="l12()" title="Click Me">
+</th></tr><tr><th>
+<input type="button" value="Profession's" onclick="l13()" title=" Click Me"></th><th>
+<input type="button" value="Diseases" onclick="l14()" title=" Click Me">
+</th><th>
+<input type="button" value="Means of Transport" onclick="l15()" title="Click Me">
+</th></tr><tr><th>
+<input type="button" value="Object of Common Use" onclick="l16()" title=" Click Me"></th><th>
+<input type="button" value="Clothes Name" onclick="l17()" title=" Click Me">
+</th><th>
+<input type="button" value="Eatables" onclick="l18()" title="Click Me">
+</th></tr><tr><th>
+<input type="button" value="Fruits Name" onclick="l19()" title=" Click Me"></th><th>
+<input type="button" value="Vegitables Name" onclick="l20()" title=" Click Me">
+</th><th>
+<input type="button" value="Grammer" onclick="l21()" title="Click Me">
+</th></tr><tr><th>
+<input type="button" value="Use OF Has Have" onclick="l22()" title=" Click Me"></th><th>
+<input type="button" value="Use OF Had" onclick="l23()" title=" Click Me">
+</th><th>
+<input type="button" value="Imperative Sentences" onclick="l24()" title="Click Me">
+</th></tr><tr><th>
+<input type="button" value="Other Sentences" onclick="l25()" title=" Click Me"></th><th>
+</tr>
+</table>
+</b>
+
+<!------------------------------------Counting Start--------------------------------------------------->
+<script>
+function l1(){
+document.write('<h1>------Counting------</h1>');
+document.write('<table border=1 style=margin-left:10px;><tr><td><b>1. One</b></td><td> <b> 11. Eleven</b></td><td><b>21. Twenty-One</b></td><td><b>31. Thirty-One</b></td><td><b>41. Fourty-One</b></td></tr>');
+document.write('<tr><td><b>2. Two</b></td><td><b>12. Twelve</b></td><td><b>22. Twenty-Two</b></td><td><b>32. Thirty-Two</b></td><td><b>42. Fourty-Two</b></td></tr>');
+document.write('<tr><td><b>3. Three</b></td><td><b>13. Thirteen</b></td><td><b>23. Twenty-Three</b></td><td><b>33. Thirty-Three</b></td><td><b>43. Fourty-Three</b></td></tr>');
+document.write('<tr><td><b>4. Four</b></td><td><b>14. Fourteen</b></td><td><b>24. Twenty-Four</b></td><td><b>34. Thirty-Four</b></td><td><b>44. Fourty-Four</b></td></tr>');
+document.write('<tr><td><b>5. Five</b></td><td><b>15. Fifteen</b></td><td><b>25. Twenty-Five</b></td><td><b>35. Thirty-Five</b></td><td><b>45. Fourty-Five</b></td></tr>');
+document.write('<tr><td><b>6. Six</b></td><td> <b>16. Sixteen</b></td><td><b>26. Twenty-Six</b></td><td><b>36. Thirty-Six</b></td><td><b>46. Fourty-Six</b></td></tr>');
+document.write('<tr><td><b>7. Seven</b></td><td><b>17. Seventeen</b></td><td><b>27. Twenty-Seven</b></td><td><b>37. Thirty-Seven</b></td><td><b>47. Fourty-Seven</b></td></tr>');
+document.write('<tr><td><b>8. Eight</b></td><td><b>18. Eighteen</b></td><td><b>28. Twenty-Eight</b></td><td><b>38. Thirty-Eight</b></td><td><b>48. Fourty-Eight</b></td></tr>');
+document.write('<tr><td><b>9. Nine</b></td><td><b>19. Nineteen</b></td><td><b>29. Twenty-Nine</b></td><td><b>39. Thirty-Nine</b></td><td><b>49. Fourty-Nine</b></td></tr>');
+document.write('<tr><td><b>10. Ten</b></td><td><b>20.Twenty</b></td><td><b>30. Thirty</b></td><td><b>40. Fourty</b></td><td><b>50. Fifty</b></td></tr></table>');
+document.write('<table border=1><tr><td><b>60. Sixty</b></td>');
+document.write('<br><td><b>70. Seventy</b></td></tr>');
+document.write('<tr><td><b>80. Eighty</b></td>');
+document.write('<td><b>90. Ninety</b></td></tr>');
+document.write('<td><b>100. Hundred</b></td>');
+document.write('<td><b>500. Five-Hundred</b></td></tr>');
+document.write('<td><b>1,000. Thousand</b></td>');
+document.write('<td><b>10,000. Ten Thousand</b></td></tr>');
+document.write('<td><b>50,000. Fifty-Thousand</b></td>');
+document.write('<td><b>1,00,000. Lac</b></td></tr>');
+document.write('<td><b>10,00,000. Million</b></td>');
+document.write('<td><b>100,00,00,000. Billion</b></td></tr></table>');
+document.write('<b><h3>&copy;2016,<font color=red style=text-shadow:2px 1px 2px #990> Please Click on Below Refresh Button For Back</font></h3><input type=button value=Refresh onclick=window.location.reload()>');
+}
+
+</script>
+<!-----------------------------------Counting End------------------------------------------->
+<!-----------------------------------Day oF week Start Here------------------------------------------->
+<script>
+function l2(){
+document.write('<h1>------Days OF Week------</h1><br>');
+document.write(' <b ><font color=red title=Sunday>1. Sunday</font><br>');
+document.write(' <b><font color=Green title=Monday>2. Monday</font><br>');
+document.write(' <b><font color=Blue title=Tuesday>3. Tuesday</font><br>');
+document.write(' <b><font color=Black title=Wednesday>4. Wednesday</font><br>');
+document.write(' <b><font color=Red title=Thursday>5. Thursday</font><br>');
+document.write(' <b><font color=brown title=Friday>6. Friday</font><br>');
+document.write(' <b><font color=purple title=Saturday>7. Saturday</font><br>');
+document.write('<b><h3>&copy;2016,<font color=red style=text-shadow:2px 1px 2px #990> Please Click on Refresh Button For Back</font></h3><b><br><input type=button value=Refresh onclick=window.location.reload()>');
+}
+</script>
+<!--------------------------------Days Of Week End Here----------------------------------------->
+<!--------------------------------Months OF Year Start Here----------------------------------------->
+<script>
+function l3(){
+document.write('<h1>------Months OF Year-----</h1><br>');
+document.write(' <b ><font color=red title=January>1. JANUARY</font><br>');
+document.write(' <b><font color=Green title=February>2. FEBRUARY</font><br>');
+document.write(' <b><font color=Blue title=March>3. MARCH</font><br>');
+document.write(' <b><font color=Black title=April>4. APRIL</font><br>');
+document.write(' <b><font color=Red title=May>5. MAY</font><br>');
+document.write(' <b><font color=brown title=June>6. JUNE</font><br>');
+document.write(' <b><font color=purple title=July>7. JULY</font><br>');
+document.write(' <b><font color=#660 title=August>8. AUGUST</font><br>');
+document.write(' <b><font color=#456 title=September>9. SEPTEMBER</font><br>');
+document.write(' <b><font color=#567 title=October>10. OCTOBER</font><br>');
+document.write(' <b><font color=746 title=November>11. NOVEMBER</font><br>');
+document.write(' <b><font color=#856 title=December>12. DECEMBER</font><br>');
+document.write('<b><h3>&copy;2016,<font color=red style=text-shadow:2px 1px 2px #990> Please Click on Below Refresh Button For Back</font></h3><input type=button value=Refresh onclick=window.location.reload()>');
+}
+</script>
+<!--------------------------------------Months OF Year End Here----------------------->
+<!--------------------------------------Colour's Start Here---------------------------------->
+<script>
+function l4(){
+document.write("<h1>------Colour's  Name------</h1><br>");
+document.write('<style>table,tr{box-shadow:2px 1px 2px #456;font-size:20px;</style>');
+document.write('<table border=2>');
+document.write("<tr><th>1. Alice-Blue</th><th style='background-color:AliceBlue; width:50px;'></th></tr>");
+document.write("<tr><th>2. Blue</th><th style='background-color:Blue; width:50px;'></th></tr>");
+document.write("<tr><th>3. Black</th><th style='background-color:Black; width:50px;'></th></tr>");
+document.write("<tr><th>4. Brown</th><th style='background-color:Brown; width:50px;'></th></tr>");
+document.write("<tr><th>5. Green</th><th style='background-color:Green; width:50px;'></th></tr>");
+document.write("<tr><th>6. Gray</th><th style='background-color:Gray; width:50px;'></th></tr>");
+document.write("<tr><th>7. Golden</th><th style='background-color:Gold; width:50px;'></th></tr>");
+document.write("<tr><th>8. Lime</th><th style='background-color:Lime; width:50px;'></th></tr>");
+document.write("<tr><th>9. Maroon</th><th style='background-color:Maroon; width:50px;'></th></tr>");
+document.write("<tr><th>10. Orange</th><th style='background-color:Orange; width:50px;'></th></tr>");
+document.write("<tr><th>11. Pink</th><th style='background-color:Pink; width:50px;'></th></tr>");
+document.write("<tr><th>12. Purple</th><th style='background-color:Purple; width:50px;'></th></tr>");
+document.write("<tr><th>13.Red</th><th style='background-color:Red; width:50px;'></th></tr>");
+document.write("<tr><th>14. Silver</th><th style='background-color:Silver; width:50px;'></th></tr>");
+document.write("<tr><th>15. Sky-blue</th><th style='background-color:SkyBlue; width:50px;'></th></tr>");
+document.write("<tr><th>16. Violet</th><th style='background-color:Violet; width:50px;'></th></tr>");
+document.write("<tr><th>17. White</th><th style='background-color:white; width:50px;'></th></tr>");
+document.write("<tr><th>18. Yellow</th><th style='background-color:Yellow; width:50px;'></th></tr>");
+document.write("</table>");
+document.write('<b><h3>&copy;2016,<font color=red style=text-shadow:2px 1px 2px #990> Please Click on Below Refresh Button For Back</font></h3><input type=button value=Refresh onclick=window.location.reload()>');
+
+} 
+
+</script>
+<!--------------------------------------Colour's End Here----------------------------------> 
+<!--------------------------------------Timings Start Here---------------------------------->
+<script>
+function l5(){
+document.write('<h1>----------Timings----------</h1><br>');
+document.write('<style>b{box-shadow:2px 1px 2px #456;font-size:20px;display:block;width:500px;</style>');
+document.write('<b> 1. Morning <br>');
+document.write(' 2. Nooon <br>');
+document.write(' 3. Afternoon <br>');
+document.write(' 4. Evening <br>');
+document.write(' 5. Night <br>');
+document.write(' 6. MidNight <br>');
+document.write(' 7. Day <br>');
+document.write(' 8. Today <br>');
+document.write(' 9. Evening <br>');
+document.write(' 10. Yesterday <br>');
+document.write(' 11. Tomorrow <br>');
+document.write(' 12. Secound <br>');
+document.write(' 13. Minute <br>');
+document.write(' 14. Hour <br>');
+document.write(' 15. Week <br>');
+document.write(' 16. Month <br>');
+document.write(' 17. Year <br>');
+document.write('<b><h3>&copy;2016,<font color=red style=text-shadow:2px 1px 2px #990> Please Click on Below Refresh Button For Back</font></h3><input type=button value=Refresh onclick=window.location.reload()>');
+}
+</script> 
+<!--------------------------------------Timings End Here----------------------------------> 
+<!--------------------------------------Directions Start Here----------------------------------> 
+
+<script>
+function l6(){
+document.write("<h1>----------Directions---------</h1><h2>");
+document.write('<style>b{box-shadow:2px 1px 2px #456;font-size:20px;display:block;width:500px;</style>');
+document.write("<b>1. North<br>");
+document.write("<b>2. South<br>");
+document.write("<b>3. East<br>");
+document.write("<b>4. West<br></h2>");
+document.write('<b><h3>&copy;2016,<font color=red style=text-shadow:2px 1px 2px #990> Please Click on Below Refresh Button For Back</font></h3><input type=button value=Refresh onclick=window.location.reload()>');
+}
+</script>
+<!--------------------------------------Directions End Here----------------------------------> 
+<!-------------------------------------Natural Objects Start Here------------------------------>
+<script>
+function l7(){
+document.write('<h1>----------Natural Objects----------</h1><h3><br>');
+document.write('<style>b{box-shadow:2px 1px 2px #456;font-size:20px;display:block;width:500px;</style>');
+document.write('<b> 1. Air<br>');
+document.write('<b> 2. Flood<br>');
+document.write('<b> 3. Earth<br>');
+document.write('<b> 4. Earth-Quake<br>');
+document.write('<b> 5. Hill<br>');
+document.write('<b> 6. Moon<br>');
+document.write('<b> 7. Mountain<br>');
+document.write('<b> 8. Ocean<br>');
+document.write('<b> 9. Plain<br>');
+document.write('<b> 10. River<br>');
+document.write('<b> 11. Sea<br>');
+document.write('<b> 12. Sun<br>');
+document.write('<b> 13. Stream<br>');
+document.write('<b> 14. Storm<br>');
+document.write('<b> 15. Tornado<br>');
+document.write('<b> 16. Water<br>');
+document.write('<b><h3>&copy;2016,<font color=red style=text-shadow:2px 1px 2px #990> Please Click on Below Refresh Button For Back</font></h3><input type=button value=Refresh onclick=window.location.reload()>');
+}
+</script>
+<!-------------------------------------Natural Objects End Here------------------------------>
+<!-------------------------------------Places Start Here------------------------------>
+<script>
+function l8(){
+document.write('<h1>----------Places----------</h1><br><h3>');
+document.write('<style>b{box-shadow:2px 1px 2px #456;font-size:20px;display:block;width:500px;</style>');
+document.write(' <b> 1. Airport<br>');
+document.write(' <b> 2. Bank<br>');
+document.write('<b> 3. Bus Stand<br>');
+document.write('<b> 4. City<br>');
+document.write('<b> 5. College<br>');
+document.write('<b> 6. Country<br>');
+document.write('<b> 7. Garden<br>');
+document.write('<b> 8. Hotel<br>');
+document.write('<b> 9. Hostel<br>');
+document.write('<b> 10. House<br>');
+document.write('<b> 11. Hospital<br>');
+document.write('<b> 12. Library<br>');
+document.write('<b> 13. Mall<br>');
+document.write('<b> 14. Market<br>');
+document.write('<b> 15. Office<br>');
+document.write('<b> 16. Park<br>');
+document.write('<b> 17. Parking<br>');
+document.write('<b> 18. Port<br>');
+document.write('<b> 19. Railway Station<br>');
+document.write('<b> 20. School<br>');
+document.write('<b> 21. Shop<br>');
+document.write('<b> 22. Taxi Stand<br>');
+document.write('<b> 23. Temple<br>');
+document.write('<b> 24. Town<br>');
+document.write('<b> 25. Theatre<br>');
+document.write('<b> 26. University<br>');
+document.write('<b> 27. Village<br>');
+document.write('<b><h3>&copy;2016,<font color=red style=text-shadow:2px 1px 2px #990> Please Click on Below Refresh Button For Back</font></h3><input type=button value=Refresh onclick=window.location.reload()>');
+}
+</script>
+<!-------------------------------------Places End Here------------------------------>
+<!-------------------------------------Class Room Objects Start Here------------------------------->
+<script>
+function l9(){
+document.write('<h1>---------- Class Room Objects ----------</h1><h3>');
+document.write('<style>table,tr,th{box-shadow:2px 1px 2px #456;font-size:20px;}</style>');
+document.write(' <table border=2>');
+document.write(' <tr><th>1. Almirha</th></tr>');
+document.write(' <tr><th>2. Bench</th></tr>');
+document.write(' <tr><th>3. Bag</th></tr>');
+document.write(' <tr><th>4. Black-Board</th></tr>');
+document.write(' <tr><th>5. Book</th></tr>');
+document.write(' <tr><th>6. Copy</th></tr>');
+document.write(' <tr><th>7. Chalk</th></tr>');
+document.write(' <tr><th>8. Chair</th></tr>');
+document.write(' <tr><th>9. Desk</th></tr>');
+document.write(' <tr><th>10. Duster</th></tr>');
+document.write(' <tr><th>11. Eraser</th></tr>');
+document.write(' <tr><th>12. Fan</th></tr>');
+document.write(' <tr><th>13. Map</th></tr>');
+document.write(' <tr><th>14. Pen</th></tr>');
+document.write(' <tr><th>15. Pencil</th></tr>');
+document.write(' <tr><th>16. Paper</th></tr>');
+document.write(' <tr><th>17. Picture</th></tr>');
+document.write(' <tr><th>18. Register</th></tr>');
+document.write(' <tr><th>19. Slate</th></tr>');
+document.write(' <tr><th>20. Sharpener</th></tr>');
+document.write(' <tr><th>21. Table</th></tr>');
+document.write(' <tr><th>22. Watch</th></tr></h3>');
+document.write('<b><h3>&copy;2016,<font color=red style=text-shadow:2px 1px 2px #990> Please Click on Below Refresh Button For Back</font></h3><input type=button value=Refresh onclick=window.location.reload()>');
+}
+</script>
+<!-------------------------------------Class Room Objects End Here------------------------------->
+<!-------------------------------------Use OF is am are Start Here------------------------------->
+<script>
+function l10(){
+document.write('<h1> ---------- Use OF IS, AM, ARE ----------</h1>');
+document.write('<style>table,tr,th{box-shadow:2px 1px 2px #456;font-size:20px;}</style>');
+document.write('<h3>Rule:-</h3>');
+document.write(' 1. Use <b><u> is </u></b>with He,She,it, and with Singular.<br>');
+document.write(' 2. Use <b><u> are </u></b>with We,You,They and with Plural.<br>');
+document.write(' 3. Use <b><u> am </u></b>with i.<br>');
+document.write('<table border=4;font-weight:bold>');
+document.write('<tr><th><h3>Affirmative Sentences</h3></th><th><h3>Negative Sentences</h3></th><th><h3>interrogative Sentences</h3></th></tr>');
+document.write('<tr><th>1. i am a Student.</th><th>1. i am not a Student.</th><th>1. Am i a Student?</th></tr>');
+document.write('<tr><th>2. We are two brothers.</th><th>1.  We are not two brothers.</th><th>2.Are we  two brothers?</th></tr>');
+document.write('<tr><th>3. He is an honest boy.</th><th>3. He is not an honest boy.</th><th>3. is he  an honest boy?</th></tr>');
+document.write('<tr><th>4. You are a good player.</th><th>4. You are not a good player.</th><th>4.Are you  a good player?</th></tr>');
+document.write('<tr><th>5. These are tables.</th><th>5. These are not tables.</th><th>5.Are these tables?</th></tr>');
+document.write('<tr><th>6. Those are books.</th><th>6. Those are not books.</th><th>6.Are those  books?</th></tr>');
+document.write('<tr><th>7. You are rich.</th><th>7. You are not rich.</th><th>7. Are you rich?</th></tr>');
+document.write('<tr><th>8. They are boys.</th><th>8. They are not boys.</th><th>8.Are they  boys?</th></tr>');
+document.write('<tr><th>9. They are best Friends.</th><th>9. They are  best Friends.</th><th>9.Are they  best Friends?</th></tr>');
+document.write('<tr><th>10. She is a tall girl.</th><th>10. She is not a tall girl.</th><th>10.is she a tall girl?</th></tr>');
+document.write('<b><h3>&copy;2016,<font color=red style=text-shadow:2px 1px 2px #990> Please Click on Below Refresh Button For Back</font></h3><input type=button value=Refresh onclick=window.location.reload()>');
+
+}
+</script>
+<!-------------------------------------Use Of is am are End Here------------------------------->
+<!-------------------------------------Use OF Was Were Start Here------------------------------->
+<script>
+function l11(){
+document.write('<h1> ---------- Use OF WAS, WERE ----------');
+document.write('<style>table,tr,th{box-shadow:2px 1px 2px #456;font-size:20px;}</style>');
+document.write('<h3>Rule:-</h3>');
+document.write(' 1. Use <b><u> Was </u></b>with i,He,She,it, and with Singular.<br>');
+document.write(' 2. Use <b><u> Were </u></b>with We,You,They and with Plural.<br>');
+document.write('<table border=4;font-weight:bold>');
+document.write('<tr><th><h3>Affirmative Sentences</h3></th><th><h3>Negative Sentences</h3></th><th><h3>interrogative Sentences</h3></th></tr>');
+document.write('<tr><th>1. He was a Poet.</th><th>1. He was not a Poet.</th><th>1. Was He a Poet?</th></tr>');
+document.write('<tr><th>2. it was a beautiful Chair.</th><th>2. it was not a beautiful Chair.</th><th>2. Was it a beautiful Chair?</th></tr>');
+document.write('<tr><th>3. She was a good singer.</th><th>3. She was not a good singer.</th><th>3. Was she a good singer?</th></tr>');
+document.write('<tr><th>4. They were very Lucky.</th><th>4. They were not very Lucky.</th><th>4.Were they very Lucky?</th></tr>');
+document.write('<tr><th>5. Ram was a Leader.</th><th>5. Ram was not a Leader.</th><th>5. Was Ram a Leader?</th></tr>');
+document.write('<tr><th>6. The horses were black.</th><th>6. The horses were not black.</th><th>6.Were the horses black?</th></tr>');
+document.write('<tr><th>7. i was a teacher.</th><th>7. i was not a teacher.</th><th>7. Was i a teacher?</th></tr>');
+document.write('<tr><th>8. We were Friends.</th><th>8. We were not Friends.</th><th>8. Were we  Friends?</th></tr>');
+document.write('<tr><th>9. You were a good player.</th><th>9. You were not a good player.</th><th>9.Were  you a good player?</th></tr>');
+document.write('<tr><th>10. i was a Shopkeeper.</th><th>10. i was not a Shopkeeper.</th><th>10. was i a Shopkeeper?</th></tr>');
+document.write('<b><h3>&copy;2016,<font color=red style=text-shadow:2px 1px 2px #990> Please Click on Below Refresh Button For Back</font></h3><input type=button value=Refresh onclick=window.location.reload()>');
+
+}
+</script>
+<!-------------------------------------Use Of Was Were End Here------------------------------->
+<!-------------------------------------Relation Start Here------------------------------->
+<script>
+function l12(){
+ document.write('<h1> ---------- Relations ----------</h1>');
+document.write('<style>table,tr,th{box-shadow:2px 1px 2px #456;font-size:20px;}</style>');
+document.write('<table border=1>');
+document.write('<tr><th> 1. Aunt</th><th> 11. Mother</th></tr>');
+document.write('<tr><th> 2. Brother</th><th> 12. Mother-in-law</th></tr>');
+document.write('<tr><th> 3. Brother-in-law</th><th> 13. Nephew</th></tr>');
+document.write('<tr><th> 4. Cousin</th><th> 14. Niece</th></tr>');
+document.write('<tr><th> 5. Daughter</th><th> 15. Son</th></tr>');
+document.write('<tr><th> 6. Father</th><th> 16. Sister-in-law</th></tr>');
+document.write('<tr><th> 7. Father-in-law</th><th> 17. Sister</th></tr>');
+document.write('<tr><th> 8. Grand-Mother</th><th> 18.Uncle</th></tr>');
+document.write('<tr><th> 9. Grand-Father</th><th> 19. Wife</th></tr>');
+document.write('<tr><th> 10. Husband</th><th> 20. Nanny</th></tr>');
+document.write('<b><h3>&copy;2016,<font color=red style=text-shadow:2px 1px 2px #990> Please Click on Below Refresh Button For Back</font></h3><input type=button value=Refresh onclick=window.location.reload()>');
+}
+</script>
+<!-------------------------------------Relation End Here------------------------------->
+<!-------------------------------------Profession Start Here------------------------------->
+<script>
+function l13(){
+document.write('<h1> ---------- Professions ----------</h1>');
+document.write('<style>table,tr,th{box-shadow:2px 1px 2px #456;font-size:20px;}</style>');
+document.write('<table border=1>');
+document.write('<tr><th> 1. Banker</th><th> 11. Peon</th></tr>');
+document.write('<tr><th> 2. Black-Smith</th><th> 12. Postman</th></tr>');
+document.write('<tr><th> 3. Clerk</th><th> 13. Poet</th></tr>');
+document.write('<tr><th> 4. Cobbler</th><th> 14. Soldier</th></tr>');
+document.write('<tr><th> 5. Carpenter</th><th> 15. Shopkeeper</th></tr>');
+document.write('<tr><th> 6. Doctor</th><th> 16. Tailor</th></tr>');
+document.write('<tr><th> 7. Engineer</th><th> 17. Teacher</th></tr>');
+document.write('<tr><th> 8. Farmer</th><th> 18.Trader</th></tr>');
+document.write('<tr><th> 9. Gold-Smith</th><th> 19. Professor</th></tr>');
+document.write('<tr><th> 10. Lawyer</th><th> 20. Anchor</th></tr>');
+document.write('<b><h3>&copy;2016,<font color=red style=text-shadow:2px 1px 2px #990> Please Click on Below Refresh Button For Back</font></h3><input type=button value=Refresh onclick=window.location.reload()>');
+
+}
+</script>
+<!-------------------------------------Profession End Here------------------------------->
+<!-------------------------------------Diseases Start Here------------------------------->
+</script>
+<!-------------------------------------Relation End Here------------------------------->
+<!-------------------------------------Profession Start Here------------------------------->
+<script>
+function l14(){
+document.write('<h1> ---------- Diseases ----------</h1>');
+document.write('<style>table,tr,th{box-shadow:2px 1px 2px #456;font-size:20px;}</style>');
+document.write('<table border=1>');
+document.write('<tr><th> 1. Fever</th><th> 11. Flu</th></tr>');
+document.write('<tr><th> 2. Cold</th><th> 12. Acne</th></tr>');
+document.write('<tr><th> 3. Cough</th><th> 13. Diabetes</th></tr>');
+document.write('<tr><th> 4. Cholera</th><th> 14. Heart Disease</th></tr>');
+document.write('<tr><th> 5. Headache</th><th> 15. Ebola</th></tr>');
+document.write('<tr><th> 6. Malaria</th><th>  </th></tr>');
+document.write('<tr><th> 7. Small-Pox</th><th></th></tr>');
+document.write('<tr><th> 8. Back-Pain</th><th></th></tr>');
+document.write('<tr><th> 9. injury</th><th></th></tr>');
+document.write('<tr><th> 10. Dengue</th><th></th></tr>');
+document.write('<b><h3>&copy;2016,<font color=red style=text-shadow:2px 1px 2px #990> Please Click on Below Refresh Button For Back</font></h3><input type=button value=Refresh onclick=window.location.reload()>');
+
+}
+</script>
+<!-------------------------------------Diseases End Here------------------------------->
+<!-------------------------------------Means OF Transport Start Here------------------------------->
+<script>
+function l15(){
+document.write('<h1> ---------- Means OF Transports ----------</h1>');
+document.write('<style>table,tr,th{box-shadow:2px 1px 2px #456;font-size:20px;}</style>');
+document.write('<table border=1>');
+document.write('<tr><th> 1. Auto-Rikshaw</th><th> 11. E-Rickshaw</th></tr>');
+document.write('<tr><th> 2. Aeroplane</th><th> 12. Scooter</th></tr>');
+document.write('<tr><th> 3. Bicycle</th><th> 13. Scooty</th></tr>');
+document.write('<tr><th> 4. Bus</th><th> 14. Ship</th></tr>');
+document.write('<tr><th> 5. Boat</th><th> 15. Truck</th></tr>');
+document.write('<tr><th> 6. Car</th><th> 16. Tonga </th></tr>');
+document.write('<tr><th> 7. Jeep</th><th> 17. Train</th></tr>');
+document.write('<tr><th> 8. Helicopter</th><th> 18. Vain</th></tr>');
+document.write('<tr><th> 9. Motor-Cycle</th><th>19. Metro</th></tr>');
+document.write('<tr><th> 10. Rickshaw</th><th>20. Tractor</th></tr>');
+document.write('<b><h3>&copy;2016,<font color=red style=text-shadow:2px 1px 2px #990> Please Click on Below Refresh Button For Back</font></h3><input type=button value=Refresh onclick=window.location.reload()>');
+
+}
+</script>
+<!-------------------------------------Means of Transport End Here------------------------------->
+
+<!-------------------------------------object of common use Start Here------------------------------->
+<script>
+function l16(){
+document.write('<h1> ---------- Objects OF Common Use ----------</h1>');
+document.write('<style>table,tr,th{box-shadow:4px 1px 4px #456;font-size:20px;}</style>');
+document.write('<table border=1>');
+document.write('<tr><th> 1. AC</th><th> 15. Mirror</th></tr>');
+document.write('<tr><th> 2. Bucket</th><th> 16. Mug</th></tr>');
+document.write('<tr><th> 3. Bulb</th><th> 17. Refrigerator</th></tr>');
+document.write('<tr><th> 4. Cooler</th><th> 18. Radio</th></tr>');
+document.write('<tr><th> 5. Cup</th><th> 19. Soap</th></tr>');
+document.write('<tr><th> 6. Clock</th><th> 20. Spoon</th></tr>');
+document.write('<tr><th> 7. Comb</th><th> 21. Towel</th></tr>');
+document.write('<tr><th> 8. Fan</th><th> 22.  Tap</th></tr>');
+document.write('<tr><th> 9. Fork</th><th> 23. Tub</th></tr>');
+document.write('<tr><th> 10. Heater</th><th> 24. Tea-Pot</th></tr>');
+document.write('<tr><th> 11. iron</th><th>25. Telephone</th></tr>');
+document.write('<tr><th> 12. Kettle</th><th> 26. Tooth-Paste</th></tr>');
+document.write('<tr><th> 13. Knife</th><th>27. Television</th></tr>');
+document.write('<tr><th> 14. Lock</th><th> 28. Umbrella</th></tr>');
+document.write('<b><h3>&copy;2016,<font color=red style=text-shadow:2px 1px 2px #990> Please Click on Below Refresh Button For Back</font></h3><input type=button value=Refresh onclick=window.location.reload()>');
+
+}
+</script>
+<!-------------------------------------object of common End Here------------------------------->
+
+<!-------------------------------------Clothes Name Start Here------------------------------->
+<script>
+function l17(){
+document.write('<h1> ---------- Clothes Name ----------</h1>');
+document.write('<style>table,tr,th{box-shadow:4px 1px 4px #456;font-size:20px;}</style>');
+document.write('<table border=1>');
+document.write('<tr><th> 1. Paint</th><th> 10. Socks</th></tr>');
+document.write('<tr><th> 2. Shirt</th><th> 11. Skirt</th></tr>');
+document.write('<tr><th> 3. Cap</th><th> 12. Over-Coat</th></tr>');
+document.write('<tr><th> 4. Hat</th><th> 13. Handkerchief</th></tr>');
+document.write('<tr><th> 5. Saree</th><th> 14. Sweater</th></tr>');
+document.write('<tr><th> 6. Clock</th><th> 15. Frock</th></tr>');
+document.write('<tr><th> 7. Coat</th><th> 16. Jean</th></tr>');
+document.write('<tr><th> 8. Trousers</th><th> 17.  Shorts</th></tr>');
+document.write('<tr><th> 9. Turban</th><th> 18. T-Shirt</th></tr>');
+document.write('<b><h3>&copy;2016,<font color=red style=text-shadow:2px 1px 2px #990> Please Click on Below Refresh Button For Back</font></h3><input type=button value=Refresh onclick=window.location.reload()>');
+
+}
+</script>
+<!-------------------------------------Clothes End Here------------------------------->
+
+<!-------------------------------------Eatables Start Here------------------------------->
+<script>
+function l18(){
+document.write('<h1> ---------- Eatables ----------</h1>');
+document.write('<style>table,tr,th{box-shadow:4px 1px 4px #456;font-size:20px;}</style>');
+document.write('<table border=1>');
+document.write('<tr><th> 1. Wheat</th><th> 11. Bread</th></tr>');
+document.write('<tr><th> 2. Flour</th><th> 12. Milk</th></tr>');
+document.write('<tr><th> 3. Gram</th><th> 13. Water</th></tr>');
+document.write('<tr><th> 4. Jam</th><th> 14. Pickel</th></tr>');
+document.write('<tr><th> 5. Butter</th><th> 15. Meat</th></tr>');
+document.write('<tr><th> 6. Cheese</th><th> 16. Egg</th></tr>');
+document.write('<tr><th> 7. Honey</th><th> 17. Tea</th></tr>');
+document.write('<tr><th> 8. Barley</th><th> 18.  Coffee</th></tr>');
+document.write('<tr><th> 9. Rice</th><th> 19. Sauce</th></tr>');
+document.write('<tr><th> 10. Sweet</th><th> 20. Curd</th></tr>');
+document.write('<b><h3>&copy;2016,<font color=red style=text-shadow:2px 1px 2px #990> Please Click on Below Refresh Button For Back</font></h3><input type=button value=Refresh onclick=window.location.reload()>');
+
+}
+</script>
+<!-------------------------------------Eatables End Here------------------------------->
+<!-------------------------------------Fruits Name Start Here------------------------------->
+<script>
+function l19(){
+document.write('<h1> ---------- Fruits Name ----------</h1>');
+document.write('<style>table,tr,th{box-shadow:4px 1px 4px #456;font-size:20px;}</style>');
+document.write('<table border=1>');
+document.write('<tr><th> 1. Apple</th><th> 11. Melon</th></tr>');
+document.write('<tr><th> 2. Pine-Apple</th><th> 12. Litchi</th></tr>');
+document.write('<tr><th> 3. Banana</th><th> 13. Pear</th></tr>');
+document.write('<tr><th> 4. Orange</th><th> 14. Lemon</th></tr>');
+document.write('<tr><th> 5. Mango</th><th> 15. Plum</th></tr>');
+document.write('<tr><th> 6. Fig</th><th> 16. Berry</th></tr>');
+document.write('<tr><th> 7. Watermelon</th><th> 17. Black-Berry</th></tr>');
+document.write('<tr><th> 8. Grapes</th><th> 18.  Dates</th></tr>');
+document.write('<tr><th> 9. Guava</th><th> 19. Mulberry</th></tr>');
+document.write('<tr><th> 10. Papaya</th><th> 20. Pomegranate</th></tr>');
+document.write('<b><h3>&copy;2016,<font color=red style=text-shadow:2px 1px 2px #990> Please Click on Below Refresh Button For Back</font></h3><input type=button value=Refresh onclick=window.location.reload()>');
+
+}
+</script>
+<!-------------------------------------Fruits Name End Here------------------------------->
+<!-------------------------------------Vegitables Name Start Here------------------------------->
+<script>
+function l20(){
+document.write('<h1> ---------- Vegitables Name ----------</h1>');
+document.write('<style>table,tr,th{box-shadow:4px 1px 4px #456;font-size:20px;}</style>');
+document.write('<table border=1>');
+document.write('<tr><th> 1. Potato</th><th> 11. Cabbage</th></tr>');
+document.write('<tr><th> 2. Tomato</th><th> 12. Beat</th></tr>');
+document.write('<tr><th> 3. Peas</th><th> 13. Turnip</th></tr>');
+document.write('<tr><th> 4. Laddy-Fingre</th><th> 14.Pumpkin </th></tr>');
+document.write('<tr><th> 5. Radish</th><th></th></tr>');
+document.write('<tr><th> 6. Carrot</th><th> </th></tr>');
+document.write('<tr><th> 7. Sweet-Potato</th><th></th></tr>');
+document.write('<tr><th> 8. Onion</th><th> </th></tr>');
+document.write('<tr><th> 9. Brinjal</th><th></th></tr>');
+document.write('<tr><th> 10. Cauliflower</th><th></th></tr>');
+document.write('<b><h3>&copy;2016,<font color=red style=text-shadow:2px 1px 2px #990> Please Click on Below Refresh Button For Back</font></h3><input type=button value=Refresh onclick=window.location.reload()>');
+
+}
+</script>
+<!-------------------------------------Vegitables Name End Here------------------------------->
+<!-------------------------------------Grammer Start Here------------------------------->
+<script>
+function l21(){
+document.write('<h1> ---------- Grammer Basics ----------</h1>');
+document.write('<style>table,tr,th{box-shadow:4px 1px 4px #456;font-size:20px;}canvas{border-color:black;}</style>');
+document.write('<center>');
+document.write('<h2><u> 1. NOUN</u></h2></center>');
+document.write('<b>Noun:</b>A noun is the name of a person, a place, a thing, a quality, a state, a action etc. as:-Mohan, Delhi, Table, Death, Pleasure. ');
+document.write('<h2><u> 2. Pronouns</u></h2></center>');
+document.write('<b>Pronoun:</b>A pronoun is a word which is used for a noun as:- he, she, it. ');
+document.write('<h2><u>Some Pronouns</u></h2></center>');
+document.write('<table border=1>');
+document.write('<tr><th> i</th><th> My</th><th> Me</th></tr>');
+document.write('<tr><th> We </th><th> Our</th><th> Us</th></tr>');
+document.write('<tr><th> He</th><th> His</th><th> Him</th></tr>');
+document.write('<tr><th> She</th><th> Her</th><th> Her</th></tr>');
+document.write('<tr><th> it</th><th> its</th><th> it</th></tr>');
+document.write('<tr><th> They</th><th> Their</th><th> Them</th></tr>');
+document.write('<tr><th> Who</th><th> Whose</th><th> Whom</th></tr>');
+document.write('<tr><th> You</th><th> Your</th><th> You</th></tr></table>');
+
+document.write('<h2><u> 3. The Adjective</u></h2></center>');
+document.write('<b>Adjective:</b>An adjective is a word that qualifies a noun or pronoun.');
+document.write('<h2><u>Some Adjective</u></h2></center>');
+document.write('<table border=1>');
+document.write('<tr><th> All</th><th> Black</th><th> Cold</th></tr>');
+document.write('<tr><th> Soft </th><th> Green</th><th> New</th></tr>');
+document.write('<tr><th> Kind</th><th> Weak</th><th> Hot</th></tr>');
+document.write('<tr><th> Red</th><th> Old</th><th> Full</th></tr>');
+document.write('<tr><th> Cruel</th><th> Bad</th><th> Big</th></tr>');
+document.write('<tr><th> Beautiful</th><th> -</th><th> -</th></tr></table>');
+
+document.write('<h2><u> 4. Verb</u></h2></center>');
+document.write('<b>Verb:</b>An verb is a word which tell what is done, as:- He Play, We Run .');
+document.write('<h2><u>Some Verb</u></h2></center>');
+document.write('<table border=1>');
+document.write('<tr><th> Call</th><th> Sleep</th><th> Feel</th></tr>');
+document.write('<tr><th> Run </th><th> Go</th><th> Come</th></tr>');
+document.write('<tr><th> Walk</th><th> Sit</th><th> Make</th></tr>');
+document.write('<tr><th> Know</th><th> Smell</th><th> Live</th></tr>');
+document.write('<tr><th> Eat</th><th> Fly</th><th> -</th></tr></table>');
+
+document.write('<h2><u> 5. The Adverb</u></h2></center>');
+document.write('<b>Adverb:</b>An adverb is a word that modifies all the words except the noun and pronoun');
+document.write('<h2><u>Some Verb</u></h2></center>');
+document.write('<table border=1>');
+document.write('<tr><th> Now</th><th> Early</th><th> Badly</th></tr>');
+document.write('<tr><th> Always </th><th> Quickly</th><th> Near</th></tr>');
+document.write('<tr><th> Well</th><th> Fast</th><th> Far</th></tr>');
+document.write('<tr><th> Soon</th><th> Slowly</th><th> Daily</th></tr></table>');
+
+document.write('<h2><u> 6. Preposition</u></h2></center>');
+document.write('<b>Preposition:</b>A preposition is a word placed after a noun or a pronoun to show its relations with some other words in the sentence, as- They play <u>with</u> ball. , Ram goes<b> For</b> a walk');
+document.write('<h2><u>Some Prepositions</u></h2></center>');
+document.write('<table border=1>');
+document.write('<tr><th> Above</th><th> Over </th><th> Into</th></tr>');
+document.write('<tr><th> Between </th><th> Since</th><th> For</th></tr>');
+document.write('<tr><th> of</th><th> At</th><th>On</th></tr>');
+document.write('<tr><th> in</th><th> Below</th><th> Up on</th></tr>');
+document.write('<tr><th> By</th><th> From</th><th> - </th></tr></table>');
+document.write('<h2><u> 7. Conjuction</u></h2></center>');
+document.write('<b>Conjuction:</b>A word that joins the two words of same kind or two clauses as- And, But, Because.');
+document.write('<h2><u> 8. Interjuction</u></h2></center>');
+document.write('<b>Interjuction:</b>A word that expresses a sudden feeling eg.- Hurrah!, Alas!, Oh! .');
+document.write('<b><h3>&copy;2016,<font color=red style=text-shadow:2px 1px 2px #990> Please Click on Below Refresh Button For Back</font></h3><input type=button value=Refresh onclick=window.location.reload()>');
+
+}
+</script>
+<!-------------------------------------Grammer Name End Here------------------------------->
+<!-------------------------------------Use OF Has Have Start Here------------------------------->
+<script>
+function l22(){
+document.write('<h1> ---------- Use OF HAS, HAVE ----------');
+document.write('<style>table,tr,th{box-shadow:2px 1px 2px #456;font-size:20px;}</style>');
+document.write('<h3>Rule:  </h3>');
+document.write(' 1. Use <b><u> has </u></b>with He,She,it, and with Singular.<br>');
+document.write(' 2. Use <b><u> have </u></b>with i,We,You,They and with Plural.<br>');
+document.write('<table border=4;font-weight:bold>');
+document.write('<tr><th><h3>Affirmative Sentences</h3></th><th><h3>Negative Sentences</h3></th><th><h3>interrogative Sentences</h3></th></tr>');
+document.write('<tr><th>1. Ram has a new car.</th><th>1. Ram has not a hew car.</th><th>1. Has Ram a new car?</th></tr>');
+document.write('<tr><th>2. They have many buffaloes.</th><th>2. They have not many buffaloes.</th><th>2.Have they many buffaloes?</th></tr>');
+document.write('<tr><th>3. it has two hands.</th><th>3. it has not two hands.</th><th>3. has it two hands?</th></tr>');
+document.write('<tr><th>4. She has a handker-chief in her pocket.</th><th>4. She has not a handker-chief in her pocket.</th><th>4.Has she a handker-chief in her pocket?</th></tr>');
+document.write('<tr><th>5. He has a sharp knife.</th><th>5. He has not a sharp knife.</th><th>5. Has he a sharp knife?</th></tr>');
+document.write('<tr><th>6. You have a red coat.</th><th>6. You have not a red coat.</th><th>6. Have you a red coat?</th></tr>');
+document.write('<tr><th>7. We have three kites.</th><th>7. We have not three kites.</th><th>7. Have we three kites?</th></tr>');
+document.write('<tr><th>8. The Children have toys.</th><th>8. The children have not toys.</th><th>8. have the children toys?</th></tr>');
+document.write('<tr><th>9. She has three sisters.</th><th>9. She has not three sisters.</th><th>9.Has she three sisters?</th></tr>');
+document.write('<tr><th>10. Mohan has three watchs.</th><th>10. Mohan has not three watchs.</th><th>10.Has Mohan three watchs?</th></tr>');
+document.write('<b><h3>&copy;2016,<font color=red style=text-shadow:2px 1px 2px #990> Please Click on Below Refresh Button For Back</font></h3><input type=button value=Refresh onclick=window.location.reload()>');
+
+}
+</script>
+<!-------------------------------------Use Of Has Have End Here------------------------------->
+<!-------------------------------------Use OF Had Start Here------------------------------->
+<script>
+function l23(){
+document.write('<h1> ---------- Use OF HAD ----------');
+document.write('<style>table,tr,th{box-shadow:2px 1px 2px #456;font-size:20px;}</style>');
+document.write('<h3>Rule:  </h3>');
+document.write(' 1. Use <b><u> had </u></b>in PAST after Subject.<br>');
+document.write('<table border=4;font-weight:bold>');
+document.write('<tr><th><h3>Affirmative Sentences</h3></th><th><h3>Negative Sentences</h3></th><th><h3>interrogative Sentences</h3></th></tr>');
+document.write('<tr><th>1. I had a chair.</th><th>1. i had not a chair.</th><th>1. Had i a chair?</th></tr>');
+document.write('<tr><th>2. We had a House.</th><th>2. We had not a house.</th><th>2.Had we a house?</th></tr>');
+document.write('<tr><th>3. Neelam had a cat.</th><th>3. Neelam had not a cat.</th><th>3. Had Neelam a cat?</th></tr>');
+document.write('<tr><th>4. They had oranges.</th><th>4. They had not oranges.</th><th>4.Had they oranges?</th></tr>');
+document.write('<tr><th>5. Sita had a doll.</th><th>5. Sita had not a doll.</th><th>5. Had sita a doll?</th></tr>');
+document.write('<tr><th>6. We had flowers.</th><th>6. We had not flowers.</th><th>6. had we flowers?</th></tr>');
+document.write('<tr><th>7. Ram had a camera.</th><th>7. Ram had not a camera.</th><th>7. Has Ram a camera?</th></tr>');
+document.write('<tr><th>8. We had toys.</th><th>8. We had not toys.</th><th>8. Had we toys?</th></tr>');
+document.write('<tr><th>9. They had books.</th><th>9. They had not books .</th><th>9.Had they books?</th></tr>');
+document.write('<tr><th>10. Salma had a silk saare.</th><th>10. Salma had not a silk saare.</th><th>10. Had Salma a silk sare?</th></tr>');
+document.write('<b><h3>&copy;2016,<font color=red style=text-shadow:2px 1px 2px #990> Please Click on Below Refresh Button For Back</font></h3><input type=button value=Refresh onclick=window.location.reload()>');
+
+}
+</script>
+<!-------------------------------------Use Of Had End Here------------------------------->
+<!-------------------------------------Imperative sentences Start Here------------------------------->
+<script>
+function l24(){
+document.write('<h1> ---------- Imperative Sentences ----------</h1><br>');
+document.write('<style>b{box-shadow:2px 1px 2px #456;font-size:20px;display:block;width:400px;border-style:outset;border-radius:12px;</style>');
+document.write('<b>1. Shut the door.</b>');
+document.write('<b>2. Come here.</b>');
+document.write('<b>3. Get out.</b>');
+document.write('<b>4. Sit down.</b>');
+document.write('<b>5. Stand up.</b>');
+document.write('<b>6. Read your book.</b>');
+document.write('<b>7. Do not tell a lie.</b>');
+document.write('<b>8. Switch off the light.</b>');
+document.write('<b>9. Please help me.</b>');
+document.write('<b>10. Do your work.</b>');
+document.write('<b>11. Water the horse.</b>');
+document.write('<b>12. Keep to your left.</b>');
+document.write('<b>13. Run to me.</b>');
+document.write('<b>14. Do not spit here.</b>');
+document.write('<b>15. Read your lesson.</b>');
+document.write('<b>16. Help the poor.</b>');
+document.write('<b>17. I had a chair.</b>');
+document.write('<b>18. Do not sit there.</b>');
+document.write('<b>19. Do not make a noise.</b>');
+document.write('<b>20. Do not gamble.</b>');
+document.write("<b>21. Don't came here.</b>");
+document.write('<b>22. Do not ring the bell.</b>');
+document.write('<b>23. Do not write on wall.</b>');
+document.write('<b>24. Do not run on the road.</b>');
+document.write('<b>25. Do not spit in the room.</b>');
+document.write('<b>26. Do not do your work.</b>');
+document.write('<b><h3>&copy;2016,<font color=red style=text-shadow:2px 1px 2px #990> Please Click on Below Refresh Button For Back</font></h3><input type=button value=Refresh onclick=window.location.reload()>');
+
+}
+</script>
+<!-------------------------------------Imperative sentences End Here------------------------------->
+<!-------------------------------------Other sentences Start Here------------------------------->
+<script>
+function l25(){
+document.write('<h1> ---------- 1. There Sentences ----------</h1><br>');
+document.write('<style>b{box-shadow:2px 1px 2px #456;font-size:20px;display:block;width:400px;border-style:outset;border-radius:12px;</style>');
+document.write('<b>1. There are seven days in a week.</b>');
+document.write('<b>2. There is no room in this bench.</b>');
+document.write('<b>3. There is a car on the road.</b>');
+document.write('<b>4. There are 8 boys in our class.</b>');
+document.write('<b>5. There was a lion in the jungle.</b>');
+document.write('<b>6. There was water everywhere.</b>');
+document.write('<b>7. There is a book on the table.</b>');
+document.write('<b>8. There was an old farmer.</b>');
+document.write('<b>9. There is a school in our village.</b>');
+document.write('<b>10. There is postoffice in front of your house.</b>');
+document.write('<h1> ---------- 2. It Sentences ----------</h1><br>');
+document.write('<b>11. it is very hot today.</b>');
+document.write('<b>12. it is very cold yesterday.</b>');
+document.write("<b>13. it is 10 o'clock.</b>");
+document.write('<b>14. it is Raining.</b>');
+document.write('<b>15. It is very dark.</b>');
+document.write('<b>16. Is it monday today?</b>');
+document.write('<b>17. Is it my turn now?</b>');
+document.write('<b>18. It is i.</b>');
+document.write('<b>19. It is tuesday today.</b>');
+document.write('<b>20. it is cold today.</b>');
+document.write('<h1> ---------- 3. Must Sentences ----------</h1><br>');
+document.write("<b>21. I Must go there.</b>");
+document.write('<b>22. We must respect our parents.</b>');
+document.write('<b>23. You must not tell a lie.</b>');
+document.write('<h1> ---------- 4. Can Sentences ----------</h1><br>');
+document.write('<b>24. I can run.</b>');
+document.write('<b>25. I cannot run.</b>');
+document.write('<b>26. Can i run?</b>');
+document.write('<b>27. Can i  not run?</b>');
+document.write('<h1> ---------- 4. Could Sentences ----------</h1><br>');
+document.write('<b>28. He could help you.</b>');
+document.write('<b>29. i could not help you.</b>');
+document.write('<b>30. Could he help you?</b>');
+document.write('<b>31. Could he not help you?</b>');
+document.write('<h1> ---------- 4. Should Sentences ----------</h1><br>');
+document.write('<b>32. We should do our work.</b>');
+document.write('<b>33. We should not do bad things.</b>');
+document.write('<b>34. Should we do our work?</b>');
+document.write('<b>35. Should we not do our work.</b>');
+document.write('<h1> ---------- 4. May Sentences ----------</h1><br>');
+document.write('<b>36. She may come here.</b>');
+document.write('<b>37. She may not came here.</b>');
+document.write('<b>38. May i come in?</b>');
+document.write('<b>38. May i look inside?</b>');
+document.write('<h1> ---------- 4. Might Sentences ----------</h1><br>');
+document.write('<b>36. He might pass in the examination.</b>');
+document.write('<b>37. Mohan might come here.</b>');
+document.write('<b>38. We might catch the train.</b>');
+document.write('<b><h3>&copy;2016,<font color=red style=text-shadow:2px 1px 2px #990> Please Click on Below Refresh Button For Back</font></h3><input type=button value=Refresh onclick=window.location.reload()>');
+
+}
+</script>
+<!-------------------------------------Other sentences End Here------------------------------->
+</div>
+<!--------------------------------------Footer Start here------------------------------------>
+<footer>
+<center>
+<b>&copy;2016, All Right's Not Reserved.</b>
+<br>
+<input type="button" value="About" onclick="alert('This Small App Designed And Develope By Karan Soni V1.0')">
+</center>
+</footer>
+</body>
+</html>
